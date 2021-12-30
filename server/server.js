@@ -46,7 +46,7 @@ app.post('/getorderdata', (req,res)=>{
     console.log('payment is successful')
   }else{
     console.log('Not succesfull')
-    console.log('Heys')
+    
   }
 }
 
