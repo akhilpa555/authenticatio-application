@@ -39,7 +39,9 @@ const [showpayement,setshowpayement] = useState(false)
       console.log('hi')
       setorderid(data.id)
       setamount(data.amount)
-      console.log(data)}
+      
+    
+    }
       );
 
   },[]);
