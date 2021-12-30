@@ -17,6 +17,7 @@ script.onload=()=>{
 }
 script.onerror=()=>{
   resolve(false)
+
 }
 
 
@@ -35,6 +36,7 @@ const [showpayement,setshowpayement] = useState(false)
     fetch('http://localhost:4000/')
     .then(response => response.json())
     .then(data => {
+      console.log('hi')
       setorderid(data.id)
       setamount(data.amount)
       console.log(data)}
